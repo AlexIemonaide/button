@@ -1,0 +1,53 @@
+ h1 {
+    text-align: center;
+}
+
+body {
+    color: teal;
+    background-color: burlywood;
+}
+
+#size {
+    float: right;
+}
+
+#time {
+    float: left;
+}
+
+#listContainer1 {
+    text-align: center;
+}
+
+.clearFloat {
+    clear: both;
+    height: 30px;
+}
+
+.headingContainer {
+    border: 3px solid darkblue;
+    border-radius: 15px 15px 15px 15px;
+}
+
+hr {
+    border: 2px dotted brown;
+}
+
+#videoContainer {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    padding: 20px;
+    transform: translate(50%, 0);
+    text-align: center;
+    width: 640px;
+    height: 500px;
+    background-color: crimson;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#closeVid {
+    float: right;
+}

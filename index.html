@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Js Shenanigans</title>
+        <script src="proj.js" defer></script>
+        <link rel="stylesheet" href="proj.css">
+    </head>
+    <body>
+        <div class="headingContainer">
+            <div class="clearFloat">
+                <p id="time"></p>
+                <p id="size"></p>
+            </div>
+            
+            <h1 id="h1-title">Testing</h1>
+        </div>
+        
+        <hr>
+
+        <h1>Monday Work</h1>
+        <div id="listContainer1">
+            <input type="text" id="listInput">
+            <button id="listAdd" onClick="item('add')">Add</button>
+            <button id="listRemove" onClick="item('remove')">Remove</button>
+        </div>
+        <hr>
+        <ul id="mondayList">
+
+        </ul>
+        <hr>
+        <ol id="tuesdayList">
+
+        </ol>
+        <hr>
+        <dl id="tuesdayList2">
+
+        </dl>
+        <div>
+            <button id="onOff" onclick="soundFunc()">On</button>
+            <button id="vid" onClick="launch()">Launch</button>
+        </div>
+        <div id="videoContainer">
+            <button id="closeVid" onclick="close()">X</button>
+            <video id="video" width="640" height="480" controls>
+                <source src="backrooms.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        
+
+    </body>
+</html>
